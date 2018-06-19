@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+html, body {
+    font-size: 14px;
+    font-family: Courier, sans-serif;
+    height: 100%;
+}
+
+@media all and ( max-width: 960px ) {
+    body {
+        background: #ccc;
+    }
+}
+
+#navbar {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: #000;
+    width: 220px;
+    height: 100%;
+
+    padding: 10px 10px;
+
+    position: fixed;
+
+    text-align: right;
+}
+
+    #navbar h1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        margin: 20px 0;
+    }
+
+    #navbar ul {
+        list-style: none;
+    }
+
+    #navbar ul li {
+        padding-bottom: 8px;
+    }
+
+    #navbar ul li a:link,
+    #navbar ul li a:visited {
+        text-decoration: none;
+        color: #808080;
+    }
+
+    #navbar ul li a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+
+    #navbar ul li a:active {
+        color: orangered;
+    }
+
+#Introduction {
+
+}
+
+#main-doc {
+    margin-left: 250px;
+}
+
+    #main-doc .main-section {
+        box-sizing: border-box;
+        padding: 20px 20px;
+    }
+
+    #main-doc header {
+        padding: 10px 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #main-doc p, ul {
+        padding: 10px 10px;
+    }
+
+    #main-doc ul li {
+        margin: 0 20px;
+        padding: 6px 0;
+    }
+
+    #main-doc code {
+        display: block;
+        width: 40%;
+        background: #f5f5f5;
+        margin: 10px 10px;
+        padding: 10px 10px;
+
+        color: #808080;
+    }
+
+#Reference a:link,
+#Reference a:visited {
+    text-decoration: none;
+    color: #808080;
+}
+
+#Reference a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+#Reference a:active {
+    color: orangered;
+}
